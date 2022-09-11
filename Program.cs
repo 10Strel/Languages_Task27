@@ -30,12 +30,12 @@ while (!resInputCheck)
     }
 }
 
-result = GetSumNumbersOfString(number);
+result = GetSumNumbersAsString(number);
 
 Console.WriteLine($"{inputStr} -> {result}");
 
 
-int GetSumNumbersOfString(decimal number)
+int GetSumNumbersAsString(decimal number)
 {
     int result = 0;
     decimal tmp = Math.Abs(number);
